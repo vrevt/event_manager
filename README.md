@@ -20,20 +20,26 @@
 ## Language, framework, orm
 
 language - python3.11
+
 framework - Django Rest Framework 3.15.2
 
 
 ## Run
-````
 ```
 python3 -m venv env
+```
+```
 source env/bin/activate
+```
+```
 pip install -r requirements.txt
-
+```
+```
 python3 manage.py migrate
+```
+```
 python3 manage.py runserver
 ```
-````
 
 ## Test
 ```
